@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -64,18 +64,23 @@ button {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: -3rem;
 }
 
 .top_contain{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3rem;
+    /* margin: -1rem;
+    padding: 4rem; */
      
 }
+
 .top_head{
     font-size: 3rem;
     color: #1d3557;
+    font-weight: 900;
+    line-height: 1;
 }
 .top_image{
     position: relative;
@@ -92,8 +97,8 @@ button {
     position: absolute;
     margin-top: 2rem;
     width: 100%;
-    /* right: auto;
-    left: auto; */
+    right: auto;
+    left: auto;
     z-index: 2;
     border-radius: 6px;
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%);
