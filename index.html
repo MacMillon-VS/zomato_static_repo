@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>zomato</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script> -->
+</head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="zom_logo">
+            <img class="logo_img" src="./assets/logo.png" alt="No image found">
+        </div>
+        <div class="menu_items">
+            <button class="m_item_btn">Order Food</button>
+        </div>
+      </nav>
+    </header>
+    <main class="contain">
+    <section class="top_contain">
+      <div class="top_text">
+        <h1 class="top_head" >Order food from favourite restaurants near you.</h1>
+        <button class="m_item_btn">Order Food</button>
+      </div>
+      <div class="top_image">
+        <img class="hero_image" src="./assets/hero.jpg" alt="No image found" >
+        <img class="hero_image_shape" src="./assets/svg/heroShape.svg" alt="Image not found">
+        <img class="hero_image_pattern" src="./assets/svg/herobgpattren.svg" alt="no svg">
+    </div>
+    </section>
+    <section class="video_contain">
+        
+        <div class="footage_container">
+            <iframe src="https://player.vimeo.com/video/323795266" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="cook_footage"></iframe>
+        </div>
+        <div class="bg"></div>
+        <div class="video_text">
+            <p> Your food will be prepared safely with an experienced chef, without compromising on the quality and hygiene.
+              </p>
+        </div>
+    </section>
+    <section class="explore_container">
+        <h1 class="exp_title">Explore our menu</h1>
+        <div class="bg_shape"></div>
+        <div class="food_cards">
+            <div class="food_card">
+                <img class="img_food" src="./assets/burger.jpg" alt="mage not found">
+                <div class="card_details">
+                    <h3><strong>Burgers</strong></h3>
+                    <p>Burger King, Mcdonalds, Burger Place<span style="color: red;">+3</span></p>
+                </div>
+            </div>
+            <div class="food_card food_card2">
+                <img class="img_food" src="./assets/pizza.jpg" alt="mage not found">
+                <div class="card_details">
+                    <h3><strong>Pizza</strong></h3>
+                    <p>Pizza Hut, Domino's Pizza<span style="color: red;">+3</span></p>
+                </div>
+            </div>
+            <div class="food_card">
+                <img class="img_food" src="./assets/iceCream.jpg" alt="mage not found">
+                <div class="card_details">
+                    <h3><strong>Icecream</strong></h3>
+                    <p>Baskin Robins, Ibaco<span style="color: red;">+3</span></p>
+                </div> 
+            </div>
+        </div>
+        <div class="view_more">View More</div>
+    </section>
+    <section class="list_container">
+        <div class="list_title">
+            <h4 class="list_text">Order From 100s of restaurants</h4>
+        </div>
+        <div class="list_images">
+            <div class="list_img_row1">
+                <div>
+                    <img src="./assets/restaurant1.jpg" alt="no image" class="restaurant1" width="250px" height="180px">
+                </div>
+                <img src="./assets/restaurant2.jpg" alt="no image" class="restaurant1" width="300px" height="260px">
+            </div>
+            <div class="list_img_row2">
+                <div>
+                    <img src="./assets/restaurant3.jpg" alt="no image" class="restaurant1" width="250px" height="180px">
+                </div>
+                <img src="./assets/restaurant4.jpg" alt="no image" class="restaurant1" width="300px" height="260px">
+            </div>
+        </div>
+    </section>
+    <section class="email_container">
+        <div class="email_title">
+            <h1 class="exp_title"><strong>Stay Updated</strong></h1>
+            <div class="email_bar">
+                <div>
+                    <input type="email" placeholder="email@xyz.com" class="email_input">
+                </div>
+                <button class="m_item_btn">Get Updates</button>
+            </div>
+        </div>
+    </section>
+    <section class="quote_container">
+        <div class="quote_img"></div>
+        <h3 class="quote_text">When a man's stomach is full it makes no difference whether he is rich or poor.</h3>
+    </section>
+    <!-- <section class="explore_container">
+        <h1>Explore our menu</h1>
+        <div class="food_cards d-flex justify-content-center gap-10">
+            <div class="card " style="width: 18rem;">
+                <img src="./assets/burger.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3><strong>Burger</strong></h3>
+                  <p class="card-text">Burger King, Mcdonalds, Burger Place<span style="color: red;">+3</span></p>
+                 
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/pizza.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/iceCream.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+                </div>
+              </div>
+        </div>
+    </section> -->
+</main>
+
+    <footer>
+      <img src="./assets/logo.png" alt="logo">
+      <ul>
+        <li>Pricing</li>
+        <li>Terms and condition</li>
+        <li>Partnership</li>
+        <li>Career</li>
+        <li>Contact</li>
+      </ul>
+    </footer>
+  </body>
+</html>
